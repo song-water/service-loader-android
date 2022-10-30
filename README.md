@@ -8,7 +8,7 @@ The transformer depends [Booster Framework](https://github.com/didi/booster), so
 
 ```groovy
 buildscript {
-    ext.kotlin_version = "1.3.50"
+    ext.kotlin_version = "1.4.32"
     repositories {
         mavenLocal()
         mavenCentral()
@@ -16,10 +16,10 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath("com.android.tools.build:gradle:3.5.0")
+        classpath("com.android.tools.build:gradle:4.2.1")
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
 
-        classpath("com.didiglobal.booster:booster-gradle-plugin:1.3.1")
+        classpath("com.didiglobal.booster:booster-gradle-plugin:4.14.0")
 
         classpath("io.johnsonlee.spi:booster-transform-service-loader:1.0.0")
     }

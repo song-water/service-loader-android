@@ -1,13 +1,13 @@
 package io.johnsonlee.booster.transform.serviceloader
 
+import com.didiglobal.booster.kotlinx.search
 import com.didiglobal.booster.kotlinx.stream
 import com.didiglobal.booster.transform.TransformContext
 import com.didiglobal.booster.transform.asm.ClassTransformer
 import com.didiglobal.booster.transform.asm.findAll
-import com.didiglobal.booster.util.search
 import com.google.auto.service.AutoService
 import io.johnsonlee.spi.ShadowServiceLoader
-import jdk.internal.org.objectweb.asm.Opcodes
+import org.objectweb.asm.Opcodes
 import org.objectweb.asm.Type
 import org.objectweb.asm.tree.ClassNode
 import org.objectweb.asm.tree.FieldInsnNode
