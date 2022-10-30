@@ -17,8 +17,8 @@ dependencies {
     implementation("com.didiglobal.booster:booster-task-spi:4.14.0")
     implementation("com.didiglobal.booster:booster-transform-asm:4.14.0")
     implementation("com.didiglobal.booster:booster-transform-util:4.14.0")
-    compileOnly("com.android.tools.build:gradle:4.2.1")
-    testCompileOnly("com.android.tools.build:gradle:4.2.1")
+    compileOnly("com.android.tools.build:gradle:7.3.0")
+    testCompileOnly("com.android.tools.build:gradle:7.3.0")
 
     testImplementation("org.jetbrains.kotlin:kotlin-test")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit")
